@@ -11,6 +11,8 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name="pytappium",
-    install_requires=requirements
+    install_requires=requirements,
+    packages=find_packages(),
+    include_package_data=True,
 )
 
