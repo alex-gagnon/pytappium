@@ -1,4 +1,4 @@
-from src.components.button import Button
+from pytappium.components.button import Button
 
 
 def test_can_instantiate_button():

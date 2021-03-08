@@ -1,4 +1,4 @@
-from src.components.clickable import Clickable
+from pytappium.components.clickable import Clickable
 
 
 class Button(Clickable):
